@@ -1,0 +1,14 @@
+{
+  "build": {
+    "preview": {
+      "env": {
+        "GOOGLE_SERVICES_FILE": "GOOGLE_SERVICES_FILE"
+      }
+    },
+    "production": {
+      "env": {
+        "GOOGLE_SERVICES_FILE": "GOOGLE_SERVICES_FILE"
+      }
+    }
+  }
+}

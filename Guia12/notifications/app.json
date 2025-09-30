@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "notifications",
+    "slug": "notifications",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "process.env.GOOGLE_SERVICES_FILE",
+      "edgeToEdgeEnabled": true,
+      "package": "com.alejandrohdz.notifications"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f10f193-b565-428f-b493-b1fe6e3e6ae5"
+      },
+      "googleServicesFile": "process.env.GOOGLE_SERVICES_FILE"
+    }
+  }
+}
